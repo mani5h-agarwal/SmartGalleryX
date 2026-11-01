@@ -1,0 +1,15 @@
+{
+  "id": "mani5hagarwal/smart-gallery-backend-v2",
+  "title": "Smart Gallery Backend V2",
+  "code_file": "smart-gallery-backend.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["awsaf49/coco-2017-dataset"],
+  "competition_sources": [],
+  "kernel_sources": ["mani5hagarwal/smart-gallery-search"],
+  "model_sources": []
+}
