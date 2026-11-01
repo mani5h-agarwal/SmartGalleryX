@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "SmartGalleryX",
+    "slug": "smart-gallery-x",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appIcon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mani5h.smartgalleryx",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/AdaptiveAppIcon.png",
+        "backgroundColor": "#3F2FB8"
+      },
+      "package": "com.mani5h.smartgalleryx",
+      "blockedPermissions": [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/appIcon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-image",
+      "expo-secure-store",
+      "expo-sharing",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "image": "./assets/splash.png",
+            "backgroundColor": "#0B0D12"
+          }
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "SmartGalleryX reads your photos so you can search them by describing what is in them.",
+          "savePhotosPermission": false,
+          "granularPermissions": [
+            "photo"
+          ]
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
