@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Expo and generated native projects
+.expo/
+dist/
+web-build/
+app/android/
+app/ios/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Model weights and run output
+*.pt
+*.pth
+*.onnx
+*.ckpt
+runs/
+*.log
+
+# Secrets and signing
+.env
+.env.*
+kaggle.json
+access_token
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# Local
+.DS_Store
+.vscode/
+.idea/
+*.tsbuildinfo
