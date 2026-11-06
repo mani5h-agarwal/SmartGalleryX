@@ -52,6 +52,8 @@ docs/       Technical documentation
 
 - [How the model works](docs/MODEL.md): embeddings, architecture, training and results
 - [System architecture](docs/ARCHITECTURE.md): the app, the server and the design decisions
+- [High-level design](docs/HLD.md): requirements, components, data flows and trade-offs
+- [Low-level design](docs/LLD.md): modules, schemas, APIs, algorithms and state machines
 
 ## Running it
 
